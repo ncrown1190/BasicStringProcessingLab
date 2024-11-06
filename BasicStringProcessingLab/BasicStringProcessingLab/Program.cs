@@ -1,7 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
+// Calling the methods
+// Method for Split the sentence into individual words and display each word on its own line.
 SplitSentence();
+
+// Method for storing the string in a list and display the contents of the list with each element separated by a space.
 StringList();
 
 
@@ -83,7 +87,7 @@ static void StringList()
 
             if (userInputAnswer.ToLower() == "y")
             {
-                Console.Write("Enter a word: ");
+                Console.Write("Enter a  another word: ");
                 continue;
             }
             else if (userInputAnswer.ToLower() == "n")
